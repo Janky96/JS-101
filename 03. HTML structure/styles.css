@@ -1,0 +1,30 @@
+.testo {
+    font-size: 56px;
+    color: #a03c3c;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #04AA6D;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #1C9862;
+}
+
+.parrot {
+    height: 400px;
+    
+}
