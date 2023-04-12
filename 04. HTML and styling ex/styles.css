@@ -64,7 +64,8 @@ a {
 }
 
 .img-cavallino {
-  height: 250px;
+  max-height: 250px;
+  width: 100%;
   margin-top: 10px;
   background-color: #f8f9fa;
 }
