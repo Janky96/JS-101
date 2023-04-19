@@ -1,0 +1,53 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 50px;
+  height: 50px;
+  font-size: 26px;
+  text-align: center;
+  border: 2px solid #99e9f2;
+}
+
+input:active,
+input:focus {
+  border: 2px solid #7abac2;
+  outline: none;
+}
+
+ion-icon {
+  font-size: 32px;
+}
+
+#equals:hover {
+  cursor: pointer;
+  transform: scale(110%);
+}
+
+.result {
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  border: 2px solid #99e9f2;
+}
