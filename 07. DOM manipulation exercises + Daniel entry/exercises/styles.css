@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+button {
+  background-color: #4c6ef5;
+  font-size: 22px;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 15px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #748ffc;
+  transform: scale(95%);
+  cursor: pointer;
+}
+
+span {
+  font-size: 22px;
+}
