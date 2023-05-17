@@ -1,0 +1,5 @@
+- Fare un array di 5 elementi con dei nomi, e stampare tutti i nomi
+- Cambiare il primo e l'ultimo elemento dell'array con dei nomi nuovi, diversi
+- Aggiungere nell'ultimo elemento dell'array un nome nuovo
+- Provare a fare uppercase tutti i nomi nell'array
+- Provare a fare lowercase tutti i nomi nell'array
